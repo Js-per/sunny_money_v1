@@ -1033,7 +1033,7 @@ h3.ss_h3_center:before {
     font-size: 30px;
 }
 .ss_seven_price {
-    background: linear-gradient(55deg , #ffa421 70%, #ffff00);
+    background: linear-gradient(-55deg , #ffa421 70%, #ffff00);
     padding: 25px 25px 50px;
 	position:relative;
 	border-radius:10px 10px 0px 0px;
@@ -1157,11 +1157,11 @@ input,.ss_address_form select {
     right: 0;
 }
 .ss_section_footer{
-	background:#476186;
-	padding:237px 0px 100px;
+	background:#ffa421;
+	padding:100px 0px 100px;
 }
 .ss_section_footer p,.ss_section_footer a,.ss_section_footer li{
-	color:#b9c2cc;
+	color:#fff;
 }
 .ss_section_footer h2{
 	color:#fff;
@@ -1172,6 +1172,7 @@ input,.ss_address_form select {
 }
 h2.ss_foot_head {
 	padding-bottom: 20px;
+	padding-top: 50px;
 }
 .ss_foot_sec img {
 	padding-bottom: 20px;
@@ -1213,18 +1214,18 @@ h2.ss_foot_head {
     width: 100%;
 }
 .ss_copywrite {
-    background: #445b71;
+    background: #ffa421;
     padding: 17px 15px 15px;
     text-align: center;
 }
 .ss_copywrite p {
-    color: #b9bdbf;
+    color: #fff;
 }
 .ss_copywrite p a{
 	color:#fff;
 }
 .ss_copywrite p a:hover{
-	color:#5b86e5;
+	color:#fff;
 }
 /* ===Home Page Css End=== */
 
