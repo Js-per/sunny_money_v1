@@ -1033,7 +1033,7 @@ h3.ss_h3_center:before {
     font-size: 30px;
 }
 .ss_seven_price {
-    background: linear-gradient(-55deg , #36d1dc, #5b86e5);
+    background: linear-gradient(55deg , #ffa421 70%, #ffff00);
     padding: 25px 25px 50px;
 	position:relative;
 	border-radius:10px 10px 0px 0px;
@@ -1062,7 +1062,7 @@ h3.ss_h3_center:before {
 }
 .ss_section_seven .ss_seven ul li i {
     padding-right: 15px;
-    color: #36d1dc;
+    color: #ffa421;
 }
 .ss_seven:hover {
     transform: translate(0px, -10px);
