@@ -135,8 +135,13 @@ Purchase:
 								<input type="text" placeholder="Enter your name" name="full_name" id="full_name" class="require"/>
 							</div>
 							<div class="ss_contact_form">
+								<label>Mobile</label>
+								<input type="tel" name="mobile" id="phone" pattern="[0-9]{10}" placeholder="Enter your mobile number" class="require" data-valid="number" data-error="Number should be 10 digits"/>
+							</div>
+							<div class="ss_contact_form">
 								<label>Email</label>
 								<input type="text" name="_replyto" id="email" placeholder="Enter your email" class="require" data-valid="email" data-error="Email should be valid."/>
+								<input type="hidden" name="_next" value="https://js-per.github.io/sunny_money_v1/contact.html"/>
 							</div>
 							<div class="ss_contact_form">
 								<label class="ss_message">Message</label>
