@@ -93,7 +93,7 @@ Purchase:
 							</g>
 							</svg>
 							<h2>Email:</h2>
-							<p>matt@sunnymoney.com.au</p>
+							<p>hello@sunnymoney.com.au</p>
 						</div>
 						<div class="ss_contact_three">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.532 488.532">
@@ -125,25 +125,24 @@ Purchase:
 				<div class="col-lg-8 col-md-7">
 					<div class="ss_contact_right">
 						<h3>contact form</h3>
-						<h1>Get in touch</h1>
-						<form >
+						<h1>Get a Quote</h1>
+						<form
+							action="https://formspree.io/mqkzdbqj"
+  						method="POST"
+							>
 							<div class="ss_contact_form">
 								<label>Name</label>
 								<input type="text" placeholder="Enter your name" name="full_name" id="full_name" class="require"/>
 							</div>
 							<div class="ss_contact_form">
 								<label>Email</label>
-								<input type="text" name="email" id="email" placeholder="Enter your email" class="require" data-valid="email" data-error="Email should be valid."/>
-							</div>
-							<div class="ss_contact_form">
-								<label>Subject</label>
-								<input type="text" name="subject" id="subject" placeholder="Enter your subject" class="require" />
+								<input type="text" name="_replyto" id="email" placeholder="Enter your email" class="require" data-valid="email" data-error="Email should be valid."/>
 							</div>
 							<div class="ss_contact_form">
 								<label class="ss_message">Message</label>
 								<textarea name="message" id="message" placeholder="Enter your message" class="require" ></textarea>
 							</div>
-							<button type="button" class="ss_btn submitForm">Submit</button>
+							<button type="submit" class="ss_btn submitForm">Submit</button>
 							<div class="response"></div>
 						</form>
 					</div>
