@@ -1695,7 +1695,7 @@ button.ss_btn:hover {
     padding-top: 2px;
 }
 .happy_clients{
-	background:linear-gradient(-55deg , #36d1dc, #5b86e5);
+	background:linear-gradient(-55deg , #ffa421 80%, #ffff00);
 }
 
 .ss_about_counter{
@@ -1731,7 +1731,7 @@ button.ss_btn:hover {
 	padding-bottom:140px;
 }
 .happy_clients h3:before {
-    background: #5b86e5;
+    background: #ffa421;
 }
 .happy_clients h3:after {
     border-right-color: #ffffff;
@@ -1766,7 +1766,7 @@ button.ss_btn:hover {
 }
 .ss_testimonial_right h1 {
     font-size: 22px;
-    margin: 20px 0px 5px;
+    margin:  0px;
 }
 .ss_testimonial_right h2 {
 	color:#5b86e5;
