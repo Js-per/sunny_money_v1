@@ -322,7 +322,7 @@ h3.ss_h3_center:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fff;
+    background: #ffff00;
     z-index: -1;
     transition: 0.3s;
     width: 0%;
@@ -337,7 +337,7 @@ h3.ss_h3_center:before {
 	z-index:2;
 	overflow:hidden;
 	vertical-align: middle;
-	background: #ffff00;
+	background: #fff;
 	color: #ffa421;
 }
 .ss_btn{
@@ -350,7 +350,7 @@ h3.ss_h3_center:before {
 }
 .ss_btn:hover,.ss_header .ss_menu li a.ss_btn:hover,.white_btn:hover{
 	color:#ffa421;
-	background: #fff;
+	background: #ffff00;
 }
 .ss_banner_main{
 	padding:90px 0px 65px;
@@ -1476,7 +1476,7 @@ button.ss_btn:hover {
 }
 /* ===contact us=== */
 .ss_contact_left{
-	background: linear-gradient(-55deg , #36d1dc, #5b86e5);
+	background: linear-gradient(-55deg , #ffa421 90%, #ffff00);
 	padding:60px;
 }
 .ss_contact_right{
@@ -1524,6 +1524,7 @@ button.ss_btn:hover {
 .ss_contact .ss_box_wbg {
     margin-top: -300px;
     position: relative;
+		margin-top: 100px;
 }
 .ss_map iframe {
 	height: 600px;
@@ -1961,7 +1962,7 @@ a:hover .fa-pinterest-p {
 	color:#fff;
 }
 .s_header {
-    background: linear-gradient(180deg,#ffa421 90%, #ffff00);
+    background: linear-gradient(180deg,#ffa421 95%, #ffff00);
 }
 .s_header_main .s_bread{
     position: absolute;
@@ -2871,7 +2872,7 @@ div#thumbs_img ul{
 		padding-right: 15px;
 	}
 	.ss_menu > ul {
-		background: #5b86e5 ;
+		background: #ffa421 ;
 		position: fixed;
 		left: -250px;
 		top: 0;
@@ -2945,7 +2946,7 @@ div#thumbs_img ul{
 		position: absolute;
 		top: -25px;
 		content: '';
-		background: #5b86e5;
+		background: #ffa421;
 		height: 58px;
 		left: -170px;
 		width: 210px;
